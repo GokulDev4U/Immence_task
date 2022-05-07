@@ -3,7 +3,7 @@ import Typography from '@mui/material/Typography';
 import Avatar from '@mui/material/Avatar';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
-
+import { display } from '@mui/system';
 
 const ConversationList = ({ name, status, img }) => {
     return (
