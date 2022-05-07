@@ -21,11 +21,11 @@ const Home = () => {
 
                 <Grid item xs={4}>
                     <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                        <Box sx={{ marginRight: 20 }}>
+                        <Box sx={{ marginRight: 28 }}>
                             <Typography variant="h6">Hello!</Typography>
                             <Typography variant="h5">Alvarado</Typography>
                         </Box>
-                        <Avatar alt="Remy Sharp" sx={{ width: 80, height: 80 }} src="https://static.remove.bg/remove-bg-web/a8b5118d623a6b3f4b7813a78c686de384352145/assets/start_remove-c851bdf8d3127a24e2d137a55b1b427378cd17385b01aec6e59d5d4b5f39d2ec.png" />
+                        <Avatar alt="Remy Sharp" sx={{ width: 50, height: 50 }} src="https://static.remove.bg/remove-bg-web/a8b5118d623a6b3f4b7813a78c686de384352145/assets/start_remove-c851bdf8d3127a24e2d137a55b1b427378cd17385b01aec6e59d5d4b5f39d2ec.png" />
                     </Box>
 
                     <Link to='/conversation'>

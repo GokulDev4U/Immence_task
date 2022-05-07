@@ -21,7 +21,7 @@ const Home = () => {
 
                 <Grid item xs={4}>
                     <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                        <Box sx={{ marginRight: 20 }}>
+                        <Box sx={{ marginRight: 28 }}>
                             <Typography variant="h6">Hello!</Typography>
                             <Typography variant="h5">Alvarado</Typography>
                         </Box>
