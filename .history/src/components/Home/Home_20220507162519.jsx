@@ -32,11 +32,10 @@ const Home = () => {
                             <TextField id="input-with-sx" label="search friend" variant="standard" />
                         </Box>
                     </Link>
-                    {Posts.map((post) => (
-                        <Box className="listItem" key={post.id}>
-                            <SinglePost post={post} />
-                        </Box>
-                    ))}
+
+                    <SinglePost />
+                    <SinglePost />
+                    <SinglePost />
                 </Grid>
                 <Grid item xs={4}></Grid>
             </Grid>

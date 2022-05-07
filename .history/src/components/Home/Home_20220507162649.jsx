@@ -34,7 +34,7 @@ const Home = () => {
                     </Link>
                     {Posts.map((post) => (
                         <Box className="listItem" key={post.id}>
-                            <SinglePost post={post} />
+                            <SinglePost />
                         </Box>
                     ))}
                 </Grid>

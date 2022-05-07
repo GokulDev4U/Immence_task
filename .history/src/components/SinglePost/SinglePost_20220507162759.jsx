@@ -5,7 +5,6 @@ import CardMedia from '@mui/material/CardMedia';
 import Avatar from '@mui/material/Avatar';
 import IconButton from '@mui/material/IconButton';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
-import { ImageAspectRatio } from '@mui/icons-material';
 
 const SinglePost = ({ post }) => {
     const { img, name, post_time } = post;
@@ -14,7 +13,7 @@ const SinglePost = ({ post }) => {
             <CardMedia
                 component="img"
                 height="194"
-                image={img}
+                image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJDlqeoG0MpIdz4PKanv7XY8Kw98kHpaiUNQ&usqp=CAU"
                 alt="img"
             />
             <CardHeader
@@ -28,8 +27,8 @@ const SinglePost = ({ post }) => {
                         <MoreVertIcon />
                     </IconButton>
                 }
-                title={name}
-                subheader={post_time}
+                title="Neha Sharma"
+                subheader="32 min ago"
             />
         </Card>
     );

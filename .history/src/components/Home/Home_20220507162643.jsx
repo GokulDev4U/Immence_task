@@ -33,8 +33,8 @@ const Home = () => {
                         </Box>
                     </Link>
                     {Posts.map((post) => (
-                        <Box className="listItem" key={post.id}>
-                            <SinglePost post={post} />
+                        <Box className="listItem" key={postMessage.id}>
+                            <SinglePost />
                         </Box>
                     ))}
                 </Grid>
