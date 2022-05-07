@@ -15,7 +15,7 @@ const Conversation = () => {
             <Grid container spacing={2}>
                 <Grid item xs={4}></Grid>
                 <Grid item xs={4}>
-                    <Typography variant="h5">Conversation</Typography>
+                    <Typography variant="h5">hello</Typography>
                     <Box sx={{ display: 'flex', alignItems: 'flex-end' }}>
                         <SearchIcon sx={{ color: 'action.active', mr: 1, my: 0.5 }} />
                         <TextField id="input-with-sx" label="search friend" variant="standard" onChange={(e) => setQuery(e.target.value.toLowerCase())} />
