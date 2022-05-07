@@ -10,7 +10,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/conversation" element={<Conversation />} />
-          {/* <Route path="/myProfile" element={<MyProfile />} /> */}
         </Routes>
       </BrowserRouter>
     </div>

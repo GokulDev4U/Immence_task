@@ -1,16 +1,15 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home/Home";
-import Conversation from "./components/Conversation/Conversation";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/conversation" element={<Conversation />} />
-          {/* <Route path="/myProfile" element={<MyProfile />} /> */}
+          <Route path="/" element={<App />}>
+            <Route index element={<Home />} />
+          </Route>
         </Routes>
       </BrowserRouter>
     </div>

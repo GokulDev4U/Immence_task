@@ -8,9 +8,10 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/conversation" element={<Conversation />} />
-          {/* <Route path="/myProfile" element={<MyProfile />} /> */}
+          {/* <Route path="/" element={<App />}> */}
+          <Route index element={<Home />} />
+          <Route index element={<Conversation />} />
+          {/* </Route> */}
         </Routes>
       </BrowserRouter>
     </div>
